@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-color: #000000;
+background-image: url("src/tile.png");
+
+  }
+  .container {
+    margin-top: 30px;
+    background-color: #ffffff;
+    width: 80vw;
+    max-width: 450px;
+    padding: 30px 24px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 12px;
+
+  }
+  .search-box {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 18px
+  }
+  .search-box input {
+      font-size: 1.2em;
+      padding: 10px 2px;
+      border: none;
+      border-bottom: 2px solid #000000;
+      outline: none;
+      color: #222a43;
+    }
+    .search-box button {
+      font-size: 0.8em;
+      background-color: #050505;
+      color: #ffffff;
+      padding: 0.8em 0;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+    }
+  #result {
+    margin-top: 12px
+  }
+  .container .flag-img,
+  map{
+    display: block;
+    width: 50%;
+    min-width: 7.5em;
+    margin: 1.8em auto 1.2em auto;
+    border-radius: 5%;
+    object-fit: cover;
+    border: 1px solid black;
+  }
+  .container h2 {
+    font-weight: 600;
+    color: #222a43;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.8em;
+  }
+  .data-wrapper {
+    margin-bottom: 1em;
+    letter-spacing: 0.3px;
+  }
+  .container h4 {
+    display: inline;
+    font-weight: 500;
+    color: #000000;
+  }
+  .container span {
+    color: #28292f;
+  }
+  .container h3 {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #f00018;
+  }
+  .footer{text-align: center;
+font-size: 12px;
+margin-top: 25px;
+color: #474d63;
+}
